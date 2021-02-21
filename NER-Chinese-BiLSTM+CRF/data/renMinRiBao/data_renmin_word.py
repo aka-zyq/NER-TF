@@ -79,7 +79,7 @@ def data2pkl():
     linelabel=list()
     tags = set()
     tags.add('')
-    input_data = codecs.open('renmin4.txt', 'r', 'utf-8')
+    input_data = codecs.open('renmin.txt', 'r', 'utf-8')
     for line in input_data.readlines():
         line = line.split()
         linedata=[]
